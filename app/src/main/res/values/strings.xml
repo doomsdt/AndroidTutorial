@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Tutorial</string>
+    <string name="tuto_save">저장</string>
+    <string name="tuto_close">닫기</string>
+    <string name="tuto_rotate">회전</string>
+    <string name="tuto_name">이름</string>
+    <string name="tuto_age">나이</string>
+    <string name="tuto_addr">주소</string>
+
+    <string name="tuto_show_name">입력된 이름</string>
+    <string name="tuto_show_age">입력된 나이</string>
+    <string name="tuto_show_addr">입력된 주소</string>
+
+    <string name="tuto_toast_over30">나이가 30살보다 많습니다.</string>
+    <string name="tuto_toast_under30">나이가 30살보다 적습니다.</string>
+
+    <string name="tuto_ch7">챕터 7</string>
+    <string name="ch7_touched">터치한 횟수 : </string>
+
+    <string name="main_study08">Study 08</string>
+
+</resources>

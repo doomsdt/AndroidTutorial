@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.soapcopy.tutorial.MainActivity">
+
+    <LinearLayout
+        android:id="@+id/ll0"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/tuto_et_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/tuto_name"
+            />
+
+        <EditText
+            android:id="@+id/tuto_et_age"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/tuto_age"
+            />
+
+        <EditText
+            android:id="@+id/tuto_et_addr"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/tuto_addr"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_below="@id/ll0"
+        >
+
+        <Button
+            android:id="@+id/tuto_save"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tuto_save"
+            />
+
+
+        <Button
+            android:id="@+id/tuto_close"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tuto_close"
+            />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ll1"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:id="@+id/tuto_tv_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/tuto_show_name"/>
+
+        <TextView
+            android:id="@+id/tuto_tv_age"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/tuto_show_age"/>
+
+        <TextView
+            android:id="@+id/tuto_tv_addr"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/tuto_show_addr"/>
+
+    </LinearLayout>
+
+    <GridLayout
+        android:id="@+id/main_gl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ll2"
+        android:columnCount="4"
+        android:rowCount="4"
+        >
+
+        <!--<Button-->
+            <!--android:id="@+id/tuto_ch7"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="@string/tuto_ch7"/>-->
+
+        <!--<Button-->
+            <!--android:id="@+id/tuto_study08"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="@string/main_study08"/>-->
+
+        <!--<Button-->
+            <!--android:id="@+id/tuto_study09"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="Study 09"/>-->
+
+        <!--<Button-->
+            <!--android:id="@+id/tuto_study10"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="Study 10"/>-->
+
+        <!--<Button-->
+            <!--android:id="@+id/tuto_study11"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="Study 11"/>-->
+
+        <!--<Button-->
+            <!--android:id="@+id/tuto_study17"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="Study 17"/>-->
+
+
+    </GridLayout>
+
+
+</RelativeLayout>
